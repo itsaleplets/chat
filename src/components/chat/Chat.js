@@ -78,8 +78,6 @@ const Chat = ({ chat, userMessage, botMessage, sendFormInfo }) => {
             <div className="historyContainer">
               {chat.length === 0 ? '' 
               : chat.map((msg, index) => <div className={ `msg ${msg.type}`} key={ index }> { msg.message } </div>)}
-
-               {/*Escolhi usar o Rater pois ajuda a diminuir o código em dezenas de linhas e tem uma funcionalidade dinâmica  */}
                {console.log(index)}
               {index >= 4 && chat.length > 1 &&
                 <div className="msg rating">
@@ -112,7 +110,7 @@ const Chat = ({ chat, userMessage, botMessage, sendFormInfo }) => {
           </div>
         :
         <div className="btn">
-          <Button size="medium" color="danger" type="button" onClick={ saveInfo }> SALVAR </Button>
+          <Button color="danger" type="button" onClick={ saveInfo }> SALVAR </Button>
         </div>
 
         }

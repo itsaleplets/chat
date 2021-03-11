@@ -28,7 +28,7 @@
 }
 
 .historyContainer {
-    height: 500px;
+    height: 300px;
     overflow: scroll;
     background-size: contain;
     background-repeat: no-repeat;
