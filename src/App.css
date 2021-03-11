@@ -38,7 +38,7 @@
 
 .title {
     margin-top: 5%;
-    font-size: 100px;
+    font-size: 20px;
 }
 
 .msg {
@@ -67,6 +67,10 @@
         text-align: left;
     }
 
+    .title {
+        font-size: 40px;
+    }
+
     .chat {
         width: 600px;
     }
@@ -80,7 +84,7 @@
     }
 
     .msg {
-        font-size: 1.1em;
+        font-size: 1.4em;
         width: 400px;
         margin-top: 3%;
     }
@@ -89,6 +93,10 @@
 @media screen and (min-width: 1430px) {
     .chat {
         width: 700px;
+    }
+
+    .title {
+        font-size: 60px;
     }
 
     .container {
@@ -100,7 +108,7 @@
     }
 
     .msg {
-        font-size: 1em;
+        font-size: 1.5em;
         width: 400px;
         margin-top: 3%;
     }
