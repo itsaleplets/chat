@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+.btn {
+    text-align: center;
+    padding: 15px;
+}
+
+.bot {
+    background-color: #f14668;
+    text-align: left;
+}
+
+.chat {
+    display: inline-block;
+    background-color: #f5f1da;
+    width: 350px;
+    border: solid 1px #c8c6a7;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.historyContainer {
+    height: 500px;
+    overflow: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./images/4.svg);
+    background-position: bottom;
+}
+
+.title {
+    margin-top: 5%;
+    font-size: 100px;
+}
+
+.msg {
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 250px;
+}
+
+.rating {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f14668;
+}
+
+.user {
+    background-color: #f4d160;
+    text-align: right;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1429px) {
+    .bot {
+        background-color: #f14668;
+        text-align: left;
+    }
+
+    .chat {
+        width: 600px;
+    }
+
+    .container {
+        height: 110vh;
+    }
+
+    .historyContainer {
+        height: 50vh;
+    }
+
+    .msg {
+        font-size: 1.1em;
+        width: 400px;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (min-width: 1430px) {
+    .chat {
+        width: 700px;
+    }
+
+    .container {
+        height: 120vh;
+    }
+
+    .historyContainer {
+        height: 60vh;
+    }
+
+    .msg {
+        font-size: 1em;
+        width: 400px;
+        margin-top: 3%;
+    }
+}
