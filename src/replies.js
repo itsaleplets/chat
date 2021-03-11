@@ -11,5 +11,3 @@ export const inputs = [
   'date',
   'email'
 ]
-
-// export default replies;
