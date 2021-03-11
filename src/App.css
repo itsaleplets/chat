@@ -38,7 +38,7 @@
 
 .title {
     margin-top: 5%;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .msg {
@@ -68,7 +68,7 @@
     }
 
     .title {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .chat {
@@ -84,7 +84,7 @@
     }
 
     .msg {
-        font-size: 1.4em;
+        font-size: 1.1em;
         width: 400px;
         margin-top: 3%;
     }
@@ -96,7 +96,7 @@
     }
 
     .title {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .container {
@@ -108,7 +108,7 @@
     }
 
     .msg {
-        font-size: 1.5em;
+        font-size: 1.2em;
         width: 400px;
         margin-top: 3%;
     }
