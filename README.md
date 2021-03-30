@@ -2,9 +2,10 @@
 
 🤖  `Aplicação` 🦾 </br>
 
-Olá! Seja bem-vindx ao repositório do Chat!  
+Olá! Seja bem-vindo(a) ao repositório do Chat!  
 Essa é uma aplicação front-end feita com React.js, usando Redux para controle de estado.
 Em seu funcionamento, é possível fazer um cadastro de forma dinâmica, enviar os dados coletados para o backend, via API.
+Veja a aplicação no ar: https://the-chat-2021.herokuapp.com/ 
 
  🧠 `Instalação do Projeto:` 🧠
 
@@ -25,8 +26,8 @@ npm start
 
 As ferramentas usadas nesse projeto foram
 
-<li>React.js | npx create-react-app </li>
-<li>Formik | npm i formik</li>
-<li>Yup | npm i yup</li>
-<li>React Rater | npm i react-rater </li>
-<li>Rbx | npm i rbx</li>
+<li>React.js</li>
+<li>Formik</li>
+<li>Yup</li>
+<li>React Rater</li>
+<li>Rbx</li>
